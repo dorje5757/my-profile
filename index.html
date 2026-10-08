@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorje Lama - Personal Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://jsdelivr.net"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans selection:bg-pink-500 selection:text-white">
+
+    <!-- HERO SECTION -->
+    <header class="relative bg-zinc-950 text-white min-h-[500px] flex flex-col justify-between p-6 bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)), url('https://unsplash.com');">
+        <div class="text-center pt-4">
+            <p class="text-xs font-bold tracking-widest text-pink-500 uppercase">HARDWORK . HEALTHY . SLEEP</p>
+        </div>
+        
+        <!-- तपाईँको माग अनुसार Learner टाईटल थपिएको छ -->
+        <div class="max-w-md mx-auto text-center my-auto space-y-6">
+            <h1 class="text-4xl font-extrabold tracking-tight leading-tight">Hi, I'm <span class="text-pink-500">Dorje Lama</span> | Learner</h1>
+            
+            <!-- स्क्रिनसट जस्तै पूर्ण सेतो बक्स र रातो अक्षर भएको About Me बटन -->
+            <div class="inline-flex items-center justify-center bg-white text-rose-600 px-8 py-4 font-bold text-2xl rounded shadow-md transform hover:scale-105 transition cursor-pointer">
+                <i class="fas fa-chevron-down mr-3 text-lg text-rose-600"></i> About Me
+            </div>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="flex justify-center space-x-6 text-xl pb-4 border-b border-zinc-800/50">
+            <a href="#" class="hover:text-pink-500 transition"><i class="fab fa-tiktok"></i></a>
+            <a href="https://instagram.com" target="_blank" class="hover:text-pink-500 transition"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com" target="_blank" class="hover:text-pink-500 transition"><i class="fab fa-github"></i></a>
+            <a href="https://facebook.com" target="_blank" class="hover:text-pink-500 transition"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="hover:text-pink-500 transition"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="hover:text-pink-500 transition"><i class="fab fa-twitter"></i></a>
+        </div>
+    </header>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="max-w-md mx-auto px-4 py-12 space-y-8">
+        <div class="text-center space-y-2">
+            <h2 class="text-xs font-bold text-pink-500 uppercase tracking-widest">ABOUT ME</h2>
+            <p class="text-xl font-bold text-gray-900">Introduction</p>
+            <div class="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-pink-500 shadow-lg mt-4 bg-white">
+                <img src="./images/profile.png" alt="Dorje Lama" class="w-full h-full object-cover">
+            </div>
+        </div>
+
+        <!-- PROFILE DETAILS CARD -->
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 space-y-6">
+            <h3 class="text-sm font-bold text-gray-400 uppercase tracking-wider">PROFILE</h3>
+            <p class="text-gray-700 text-sm leading-relaxed font-medium">
+                Hi, I am <span class="font-bold text-pink-600">Dorje Lama</span>, an aspiring Junior Web Developer passionate about coding and modern designs. I love building responsive interfaces using HTML, CSS, JavaScript, and Bootstrap, while constantly exploring backend concepts to craft scalable web applications.
+            </p>
+            
+            <div class="space-y-4 border-t pt-4">
+                <div class="flex items-center space-x-3 text-sm">
+                    <i class="fas fa-user text-pink-500 w-5"></i>
+                    <div><p class="text-gray-400 text-xs">Full Name</p><p class="font-semibold">Dorje Lama</p></div>
+                </div>
+                <div class="flex items-center space-x-3 text-sm">
+                    <i class="fas fa-calendar-alt text-pink-500 w-5"></i>
+                    <div><p class="text-gray-400 text-xs">Birth Date</p><p class="font-semibold">2004/04/09</p></div>
+                </div>
+                <div class="flex items-center space-x-3 text-sm">
+                    <i class="fas fa-briefcase text-pink-500 w-5"></i>
+                    <div><p class="text-gray-400 text-xs">Current Position</p><p class="font-semibold">Junior Developer</p></div>
+                </div>
+                <div class="flex items-center space-x-3 text-sm">
+                    <i class="fas fa-envelope text-pink-500 w-5"></i>
+                    <div><p class="text-gray-400 text-xs">Email</p><p class="font-semibold break-all">dorielama788@gmail.com</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SKILLS SECTION -->
+        <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 space-y-6">
+            <h3 class="text-sm font-bold text-gray-400 uppercase tracking-wider">SKILLS</h3>
+            <p class="text-xs text-gray-400 -mt-2">Skills and their proficiency percentages</p>
+            
+            <div class="space-y-5">
+                <div class="space-y-1">
+                    <div class="flex justify-between items-center text-sm font-bold text-gray-900">
+                        <span><i class="fas fa-check text-pink-500 mr-2"></i>HTML 5</span>
+                        <span class="text-xs text-gray-500">90%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2.5 rounded-full overflow-hidden">
+                        <div class="bg-pink-500 h-full rounded-full" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="space-y-1">
+                    <div class="flex justify-between items-center text-sm font-bold text-gray-900">
+                        <span><i class="fas fa-check text-pink-500 mr-2"></i>CSS</span>
+                        <span class="text-xs text-gray-500">90%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2.5 rounded-full overflow-hidden">
+                        <div class="bg-pink-500 h-full rounded-full" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="space-y-1">
+                    <div class="flex justify-between items-center text-sm font-bold text-gray-900">
+                        <span><i class="fas fa-check text-pink-500 mr-2"></i>JAVASCRIPT</span>
+                        <span class="text-xs text-gray-500">90%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2.5 rounded-full overflow-hidden">
+                        <div class="bg-pink-500 h-full rounded-full" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="space-y-1">
+                    <div class="flex justify-between items-center text-sm font-bold text-gray-900">
+                        <span><i class="fas fa-check text-pink-500 mr-2"></i>BOOTSTRAP</span>
+                        <span class="text-xs text-gray-500">90%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2.5 rounded-full overflow-hidden">
+                        <div class="bg-pink-500 h-full rounded-full" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="space-y-1">
+                    <div class="flex justify-between items-center text-sm font-bold text-gray-900">
+                        <span><i class="fas fa-check text-pink-500 mr-2"></i>JAVA</span>
+                        <span class="text-xs text-gray-500">80%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2.5 rounded-full overflow-hidden">
+                        <div class="bg-pink-500 h-full rounded-full" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="space-y-1">
+                    <div class="flex justify-between items-center text-sm font-bold text-gray-900">
+                        <span><i class="fas fa-check text-pink-500 mr-2"></i>PYTHON</span>
+                        <span class="text-xs text-gray-500">80%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2.5 rounded-full overflow-hidden">
+                        <div class="bg-pink-500 h-full rounded-full" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="space-y-1">
+                    <div class="flex justify-between items-center text-sm font-bold text-gray-900">
+                        <span><i class="fas fa-check text-pink-500 mr-2"></i>GIT</span>
+                        <span class="text-xs text-gray-500">90%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2.5 rounded-full overflow-hidden">
+                        <div class="bg-pink-500 h-full rounded-full" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-4 space-y-3">
+                <button class="w-full bg-white border border-gray-300 text-gray-800 py-3 rounded-lg font-bold shadow-sm hover:bg-gray-50 transition tracking-wide">Resume | CV</button>
+                <button class="w-full bg-zinc-900 text-white py-3 rounded-lg font-bold shadow-md hover:bg-zinc-800 transition tracking-wide">Download</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- COUNTER STATS SECTION -->
+    <section class="bg-pink-600 text-white py-12 px-6 text-center space-y-8">
+        <div class="space-y-1">
+            <i class="fas fa-users text-3xl opacity-90"></i>
